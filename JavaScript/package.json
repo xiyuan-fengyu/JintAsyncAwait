@@ -1,0 +1,10 @@
+{
+  "name": "javascript-bridge",
+  "version": "1.0.0",
+  "description": "JavaScript Bridge",
+  "types": "./src/types.d.ts",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {}
+}

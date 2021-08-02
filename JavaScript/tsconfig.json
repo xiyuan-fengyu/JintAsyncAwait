@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es5",
+    "removeComments": true,
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "declaration": false,
+    "rootDir":"./src",
+    "outDir": "./js",
+    "experimentalDecorators": false,
+    "emitDecoratorMetadata": false,
+    "watch":true,
+    "lib": [
+      "es5",
+      "es2015.promise"
+    ]
+  },
+  "include":[
+    "./src/**/*"
+  ],
+  "exclude":[
+//    "./src/ignore/*"
+  ]
+}
